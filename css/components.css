@@ -1,0 +1,36 @@
+/* Card General */
+
+.card-wrapper {
+    background-color: var(--clr-white);
+    width: 100%;
+    border-radius: 2rem;
+    padding: 2.5rem;
+    margin: 5rem 0;
+}
+
+/* Card-L */
+
+.card-L {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-block: 3rem;
+    margin: 1rem;
+}
+
+/* Card-Picture */
+
+.picture-frame {
+    background-color: var(--clr-black);
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+}
+
+/* Banner */
+
+.banner {
+    margin-top: 5rem;
+}
