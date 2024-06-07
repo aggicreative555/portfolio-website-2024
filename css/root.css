@@ -23,13 +23,13 @@
     --fw-medium: 600;
     --fw-bold: 700;
 
-    --fs-title-huge: clamp(10.25rem, 10vw + 2rem, 17.25rem);
-    --fs-title: clamp(8.25rem, 10vw + 2rem, 12.25rem);
-    --fs-heading-1: clamp(5rem, 5vw + 1rem, 8.25rem);
-    --fs-heading-2: clamp(3rem, 5vw + 0.25rem, 5rem);
+    --fs-title-huge: clamp(8.25rem, 15vw + 2rem, 17.25rem);
+    --fs-title: clamp(8.25rem, 15vw + 2rem, 10.25rem);
+    --fs-heading-1: clamp(5rem, 10vw + 1rem, 8.25rem);
+    --fs-heading-2: clamp(3rem, 10vw + 1rem, 5rem);
     --fs-subtitle: 1.5rem;
-    --fs-body-big: clamp(1.5rem, 3vw + 0.1rem, 2.5rem);
-    --fs-body: clamp(0.75rem, 3vw + 0.1rem, 1rem);
+    --fs-body-big: clamp(1.5rem, 5vw + 1rem, 2.5rem);
+    --fs-body: clamp(0.75rem, 3vw + .5rem, 1rem);
     --fs-caption: clamp(.7rem, 3vw + 0.1rem, 1rem);
 
     --fs-button: 1.5rem;
