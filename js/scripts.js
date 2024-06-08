@@ -1,3 +1,21 @@
+const navRight = document.querySelector(".nav-right");
+const navToggle = document.querySelector(".nav-toggle");
+
+navToggle.addEventListener("click", () => {
+    const visibility = navRight.getAttribute('data-visible');
+
+    console.log(visibility);
+
+    if (visibility === "false") {
+        navRight.setAttribute("data-visible", true);
+    } else if (visibility === "true") {
+        navRight.setAttribute("data-visible", false);
+        navToggle.setAttribute("display");
+    }
+});
+
+
+// Progress-bar 
 
 document.addEventListener("DOMContentLoaded", () => {
     const circles = document.querySelectorAll(".circle");
