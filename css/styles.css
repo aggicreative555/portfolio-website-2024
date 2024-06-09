@@ -213,7 +213,6 @@ p, .body {
 
 .card-container {
     display: flex;
-    flex-direction: row;
     gap: 1.5rem;
     justify-content: center;
     width: 100%;
