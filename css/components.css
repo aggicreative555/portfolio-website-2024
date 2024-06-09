@@ -16,18 +16,7 @@
     height: auto;
 }
 
-@media (min-width: 1139px) {
-    .card-container {
-        flex-direction: row-reverse;
-        align-items: center;
-    }
 
-    .card-container .picture-frame {
-        order: -1; 
-        margin-bottom: 1.5rem; 
-        width: 320px;
-    }
-}
 
 .card-hover {
     transition: .3s ease-in-out;
@@ -269,4 +258,17 @@
 
 .picture-wrapper-circle > img {
     object-fit: cover;
+}
+
+@media (min-width: 1139px) {
+    .card-container {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .card-container .picture-frame {
+        order: -1; 
+        margin-bottom: 1.5rem; 
+        width: 320px;
+    }
 }
