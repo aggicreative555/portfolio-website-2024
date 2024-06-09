@@ -7,13 +7,27 @@
     padding: 2.5rem;
 }
 
-/* .card-container {
+.card-container {
     display: flex;
+    flex-direction: column;
     gap: 1.5rem;
     justify-content: center;
     width: 100%;
     height: auto;
-} */
+}
+
+@media (min-width: 1139px) {
+    .card-container {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .card-container .picture-frame {
+        order: -1; 
+        margin-bottom: 1.5rem; 
+        width: 320px;
+    }
+}
 
 
 
@@ -259,15 +273,3 @@
     object-fit: cover;
 }
 
-@media (min-width: 1139px) {
-    .card-container {
-        flex-direction: row-reverse;
-        align-items: center;
-    }
-
-    .card-container .picture-frame {
-        order: -1; 
-        margin-bottom: 1.5rem; 
-        width: 320px;
-    }
-}
