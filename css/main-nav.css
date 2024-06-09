@@ -98,14 +98,12 @@ header {
     transition: transform 0.3s ease-in-out;    
 }
 
-.nav-toggle {
-    cursor: pointer;
+#nav-toggle {
     display: none;
     padding: 1rem;
-}
-
-.checkbox {
-    display: none;
+    border: none;
+    background-color: var(--clr-white);
+    cursor: pointer;
 }
 
 #close-icon {
