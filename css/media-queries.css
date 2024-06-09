@@ -1,77 +1,11 @@
-@media (max-width:40em) {
-    #nav-toggle {
-        display: block;
-        display: flex;
-    }
-
-    .nav-wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        width: 100%;
-    }
-
-    .nav-left {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .nav-right {
-        display: flex;
-        margin-top: 5rem;
-        justify-content: flex-start;
+@media (min-width: 50em) {
+    .card-container {
+        flex-direction: row;
         align-items: center;
-        flex-direction: column;
-        top: 0%;
-        height:100vh;
-        left: 0;
-        width: 100%;
-        background: var(--clr-white);
-        overflow: hidden;
-        gap: 5rem;
-
-        transform: translateY(-100%);
-
     }
 
-    .nav-right > ul {
-        display: flex;
-        flex-direction: column;
-        gap: 5rem;
-        justify-content: center;
-        align-items: center;
-        
+    .card-container .picture-frame {
+        order: -1; 
+        margin-bottom: 1.5rem; 
     }
-
-    .nav-right a {
-        transition: 0.3s ease;
-    }
-
-    .nav-right a:hover {
-        color: var(--clr-accent);
-    }
-
-    .nav-list .body {
-        font-size: var(--fs-body-big);
-    }
-
-    .nav-link, .current-page {
-        font-size: var(--fs-M);
-        font-weight: var(--fw-medium);
-        color: var(--clr-black);
-        text-transform: uppercase;
-        text-decoration: none;
-        position: relative;
-    }
-
-    .nav-right[data-visible="true"] {
-        display: block;
-    }
-
-    .nav-right[data-visible="false"] {
-        display: none;
-    }
-
 }
